@@ -77,7 +77,7 @@ header .container {
   margin-top: 1em;
   background: #c24e4b;
   border: 0;
-  padding: 0.6em;
+  padding: .6em;
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -86,6 +86,9 @@ header .container {
 }
 .destaque button:hover {
   background-color: #c8615e;
+}
+.destaque button:active {
+  background-color: #b6413e;
 }
 /** Sobre **/
 .sobre {
@@ -154,7 +157,7 @@ header .container {
   background: #c24e4b;
   text-align: center;
   height: 2em;
-  padding-top: 0.6em;
+  padding-top: .6em;
   margin-top: 0;
 }
 .plano div {
@@ -169,7 +172,7 @@ header .container {
   font-size: 1em;
   list-style: none;
   border-bottom: 1px solid #acacac;
-  padding: 0.5em;
+  padding: .5em;
   width: 14.8em;
 }
 .itens-plano li:last-child {
@@ -211,7 +214,7 @@ header .container {
   content: "";
   background: url(../imagens/fundo.png);
   background-size: 25px 25px;
-  opacity: 0.15;
+  opacity: .15;
   top: 0;
   left: 0;
   bottom: 0;
@@ -254,7 +257,7 @@ form {
 .contato input,
 textarea {
   width: 100%;
-  margin-bottom: 0.8em;
+  margin-bottom: .8em;
   padding: 4px 8px;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -280,7 +283,7 @@ footer {
 footer::after {
   content: "";
   background: url(../imagens/fundo-rodape.png);
-  opacity: 0.02;
+  opacity: .02;
   top: 0;
   left: 0;
   bottom: 0;
