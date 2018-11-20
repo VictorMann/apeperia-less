@@ -10,3 +10,9 @@ Se quiser ver a diferença entre o Sass e o LESS, pode dar uma olhada nesse link
 https://gist.github.com/chriseppstein/674726
 
 +----
+
+Existem outras funções relacionadas a cor no LESS, recomendo que dê uma olhada rápida na documentação depois:
+
+http://lesscss.org/functions/#color-channel
+
++----
