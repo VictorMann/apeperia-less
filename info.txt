@@ -1,0 +1,12 @@
+compilar:
+> lessc estilo.less estilo.css
+
++----
+
+Se você já fez o curso de Sass aqui no Alura já viu boa parte das features que abordaremos nesse curso.
+
+Se quiser ver a diferença entre o Sass e o LESS, pode dar uma olhada nesse link:
+
+https://gist.github.com/chriseppstein/674726
+
++----
