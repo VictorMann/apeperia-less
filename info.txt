@@ -32,3 +32,13 @@ Abaixo a lista dos plugins do Grunt que tornam isso, e muito mais, possível:
 http://gruntjs.com/plugins
 
 +----
+
+Então, conseguimos fazer aninhamento (em inglês, usamos o termo nesting) dos seletores no CSS. Vamos colocar dentro do .menu-principal os seguintes trechos que também são filhos da classe:
+
+.menu-principal {
+    ...
+    ...
+    ul {
+        ...
+    }
+}
