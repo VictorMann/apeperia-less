@@ -1,10 +1,9 @@
 @cor-padrao: #c24e4b;
 @cor-branca: #fff;
 @cor-auxiliar: #1e2c35;
-@raio-da-borda: 0.3em;
 
 // mixins
-.borda-arredondada {
+.borda-arredondada(@raio-da-borda: .3em) {
   -webkit-border-radius: @raio-da-borda;
   border-radius: @raio-da-borda;
 }
@@ -42,7 +41,7 @@ h2 {
 /** Header **/
 header {
   border-top: 5px solid @cor-padrao;
-  background: fade(@cor-padrao, 80);
+  background: fade(@cor-auxiliar, 80);
   height: 90px;
   width: 100%;
   position: absolute;
@@ -109,7 +108,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  .borda-arredondada;
+  .borda-arredondada(2em);
   .sombra-padrao;
   font-weight: bold;
 }
@@ -241,7 +240,7 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  .borda-arredondada;
+  .borda-arredondada();
   .sombra-padrao;
   margin-left: 2em;
 }
@@ -325,7 +324,7 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  .borda-arredondada;
+  .borda-arredondada();
   border: 2px solid #ccc;
 }
 
@@ -337,7 +336,7 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  .borda-arredondada;
+  .borda-arredondada();
   .sombra-padrao;
 }
 
