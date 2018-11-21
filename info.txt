@@ -24,3 +24,11 @@ Seria melhor, se qualquer alteração que fizéssemos no arquivo LESS, ele próp
 Por exemplo, é uma boa prática deixar o arquivo unificado e o Grunt possui plugins para fazer isto. Nós precisamos de um plugin que compile o Less e fique verificando se foi feita alguma atualização.
 
 Você pode ficar tranquilo, porque não precisará ter um conhecimento aprofundado sobre Grunt para continuar o curso... Nos só veremos algumas configurações básica.
+
+Poderíamos minificar o código e otimizar as imagens, por exemplo.
+
+Abaixo a lista dos plugins do Grunt que tornam isso, e muito mais, possível:
+
+http://gruntjs.com/plugins
+
++----
