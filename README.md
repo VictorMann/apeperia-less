@@ -8,6 +8,6 @@
 <section>
     <em>Descrição</em>
     <p>
-        Basicamente, a página tem um cabeçalho, uma área de destaque, uma seção de "Sobre", os valores dos "Planos". Todo o conteúdo do design CSS é trabalhado com o famoso pré-processador LESS. Visando suas boas práticas.
+        Basicamente, a página tem um cabeçalho, uma área de destaque, uma seção de "Sobre", os valores dos "Planos". Todo o conteúdo do design CSS é trabalhado com o famoso pré-processador LESS. Visando boas práticas.
     </p>
 </section>
